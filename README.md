@@ -1,2 +1,5 @@
 # FDI
-Front developer Is men 프론트기초공부
+### 국비 블록체인 웹기초공부
+잡다한거 적어두기
+
+session 변수 로그인했던 정보
