@@ -66,3 +66,10 @@ description 설명방식
 
 doctype = dtd document type defintion 마크업언어에서 문서형식을 정의합니다.
 
+* 선택자 속성을 주는게 css이다
+css 속성은 properties html은 atribute
+
+태그에 직접작성하는 인라인방식
+div style 로 해서 한다.
+
+html에 포함하기 내장방식이다
