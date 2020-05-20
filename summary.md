@@ -73,3 +73,22 @@ css 속성은 properties html은 atribute
 div style 로 해서 한다.
 
 html에 포함하기 내장방식이다
+
+### html 은 그본적으로 블록레벨요소와 인라인요소로 구성된다
+* 블록요소 지정해준만큼된다
+width:100% height:0로 시작
+수직으로 쌓인다.
+margin padding 위아래 좌우 사용가능하다
+ex)div j1 p
+
+* 인라인 요소  
+인라인요소는 필요한만큼한다
+크기를 지정할수없다
+수평으로 쌓인다.
+width:0 height:0으로시작
+margin padding 위아래는 사용을할수없다
+ex)span img
+
+* link 요소 현재문서와 외부 리소스와의 관계를 명시합니다.
+ empty tag 
+ chroset

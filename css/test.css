@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div {
+    background-color:red;
+     width: 100px;
+     height: 30px;
+     padding: 20px;
+}
