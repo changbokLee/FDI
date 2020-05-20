@@ -17,6 +17,16 @@ body {
 
 }
 
+.header {
+    display: block;
+    
+}
+
+h2 {
+    font-size: 42px;
+    display: block;
+}
+
 .content_box {
     font-family: 나눔고딕;
     text-align: center;
@@ -95,11 +105,3 @@ th {
 }
 
 
-.header {
-    text-align: center;
-}
-
-h2 {
-    font-size: 42px;
-    display: block;
-}
