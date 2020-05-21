@@ -67,12 +67,9 @@ description 설명방식
 doctype = dtd document type defintion 마크업언어에서 문서형식을 정의합니다.
 
 * 선택자 속성을 주는게 css이다
-css 속성은 properties html은 atribute
-
-태그에 직접작성하는 인라인방식
-div style 로 해서 한다.
-
-html에 포함하기 내장방식이다
+> css 속성은 properties html은 atribute태그에 직접작성하는 인라인방식
+>div style 로 해서 한다.
+>html에 포함하기 내장방식이다
 
 ### html 은 그본적으로 블록레벨요소와 인라인요소로 구성된다
 * 블록요소 지정해준만큼된다
@@ -95,3 +92,7 @@ ex)span img
 
 * header안에는 header랑 footer는 입력할수가없다.
 * footer는 header와 footer을 입력할수가 없다.
+
+h1 h2 태크는 block
+main block
+article 독립적으로 구분되거나 직정사용가능한거를 출전
