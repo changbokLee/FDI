@@ -99,6 +99,17 @@ main block
 section block요소임
 article 독립적으로 구분되거나 직정사용가능한거를 출전
 > 주로 블로그 글쓸때 씀
-
+* div : 아무의미없음 blcok 요소임
 * nav : 다른페이지 링크를 제공하는 영역을 설정
 * address : block 으로 설정됨 보통주소를함
+* ol ul 순서가필요한거는 ol 순서가필요하지않은거는 ul
+* li display list item
+* dl과 dt는 키값과 value값으로 유용하게 사용가능
+display: block
+* p는 paragraph 의 단어로 하나의 문단을설정
+ block요소
+ * hr 문단의 분리를 위해 설정 display : block
+ * pre 서식이 미리 지정된테긋트를 설정 텍스트의 공백과 줄바꿈을 유지할수있음
+ display: block
+
+ 

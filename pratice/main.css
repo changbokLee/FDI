@@ -1,14 +1,64 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-color: yellowgreen;
+header {
+    background-color: tomato;
+    margin: 10px;
+    padding: 20px;
 }
 
-span {
+header nav{
+
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+main {
+    display: flex;
+}
+section {
+    width: 70%;
     background-color: red;
-    width: 120px;
-    height: 80px;
-    font-size: 50px;
-    display: inline;
-    
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+section h1 {
+
+}
+
+article {
+    background: yellowgreen;
+}
+
+article h2 {
+
+}
+
+article p  {
+
+}
+
+aside {
+    width: 30%;
+    background: blue;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    background: yellowgreen;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+footer address  a  {
+    display: block;
+
 }
