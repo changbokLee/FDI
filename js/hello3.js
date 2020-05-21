@@ -50,18 +50,17 @@
 // }
 
 var site =prompt("구글, 네이버 , 네이트 중 즐겨 사용하는 포털검색 사이트는");
-var url;
 var link =" http://www.google.com"
-var naver = " http://www.naver.com"
+var naver = " https://www.naver.com/"
 var nate = " http://www.nate.com"
     if (site == "구글" ) 
         location.href = link;
     
     else if (site == "네이버" )
-        location.href = link;
+        location.href = naver;
      
-    else if ( url == "네이트")
-        location.href = link;
+    else if ( site == "네이트")
+        location.href = nate;
     else
         document.write("여기에없음")
         

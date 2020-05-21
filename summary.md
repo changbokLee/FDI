@@ -92,3 +92,6 @@ ex)span img
 * link 요소 현재문서와 외부 리소스와의 관계를 명시합니다.
  empty tag 
  chroset
+
+* header안에는 header랑 footer는 입력할수가없다.
+* footer는 header와 footer을 입력할수가 없다.
