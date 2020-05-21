@@ -1,3 +1,5 @@
+
+// 날짜 입력하기
 // var tody = new Date();
 // var nowmonth = today.getMonth();
 // var nowDate = today.getDate();
@@ -47,27 +49,31 @@
 // var t_num = Math.random();
 // document.write("바닥함수 값:"+ t_num +"<br>");
 
-document.write("<h1>가위 바위 보</h1>");
+
+// 가위바위보 만들기
+// document.write("<h1>가위 바위 보</h1>");
 
 
-var game = prompt("가위 , 바위 , 보 중하나를 선택하세요");
-var game_num;
+// var game = prompt("가위 , 바위 , 보 중하나를 선택하세요");
+// var game_num;
 
-if (game =="가위")
-    game_num =1;
-else if (game == "바위")
-    game_num = 2;
-else if (game == "바위")
-    game_num = 3;
+// if (game =="가위")
+//     game_num =1;
+// else if (game == "바위")
+//     game_num = 2;
+// else if (game == "바위")
+//     game_num = 3;
 
 
-var com = Math.ceil(Math.random()*3);
+// var com = Math.ceil(Math.random()*3);
 
-document.write('<img src="/images/math_img_1.jpg">' + com );
-document.write('<img src="/images/math_img_2.jpg">' + com );
-document.write('<img src="/images/math_img_3.jpg">' + com );
+// document.write('<img src="/images/math_img_1.jpg">' + com );
+// document.write('<img src="/images/math_img_2.jpg">' + com );
+// document.write('<img src="/images/math_img_3.jpg">' + com );
 
-if (com==game_num)
-    document.write("맞췄습니다");
-else
-    document.write("틀렸습니다");
+// if (com==game_num)
+//     document.write("맞췄습니다");
+// else
+//     document.write("틀렸습니다");
+
+

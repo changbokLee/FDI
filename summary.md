@@ -42,13 +42,13 @@ css로 스타일링가능
 자바스크립트로 이벤트핸들링가능
 
 
-html 부모 자식요소
+* html 부모 자식요소
 Parent
 child
 parent
 
 
-section 부모태그
+* section 부모태그
 h1 자식태그
 ul 후손태그
 li
@@ -67,9 +67,9 @@ description 설명방식
 doctype = dtd document type defintion 마크업언어에서 문서형식을 정의합니다.
 
 * 선택자 속성을 주는게 css이다
-> css 속성은 properties html은 atribute태그에 직접작성하는 인라인방식
->div style 로 해서 한다.
->html에 포함하기 내장방식이다
+css 속성은 properties html은 atribute태그에 직접작성하는 인라인방식
+div style 로 해서 한다.
+html에 포함하기 내장방식이다
 
 ### html 은 그본적으로 블록레벨요소와 인라인요소로 구성된다
 * 블록요소 지정해준만큼된다
@@ -95,4 +95,10 @@ ex)span img
 
 h1 h2 태크는 block
 main block
+
+section block요소임
 article 독립적으로 구분되거나 직정사용가능한거를 출전
+> 주로 블로그 글쓸때 씀
+
+* nav : 다른페이지 링크를 제공하는 영역을 설정
+* address : block 으로 설정됨 보통주소를함
