@@ -112,4 +112,17 @@ display: block
  * pre 서식이 미리 지정된테긋트를 설정 텍스트의 공백과 줄바꿈을 유지할수있음
  display: block
 
- 
+<hr>
+
+ ### 인라인 요소
+ * a태그 display: inline이다 target self등으로 설정한다.
+ * abbr 설명하려고 할때 쓰는거다 속성은 inline
+* b 문체가 다른글자의 범위 display:inline
+* mark display: inline
+* em 단순한의미를 강조표시 
+* strong 태그 의미의 중요성 나타내기위해사용
+* i 아이콘이나 특수기호를위해사용 display: inline
+* cite 창작물에 대한 참조를 설정
+* q 인용문 할때 쓰는 태그
+* u 밑줄
+* span 본질적으로 아무것도나타내지않는 것 인라인요소
