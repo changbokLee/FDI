@@ -41,6 +41,7 @@ GIF 같은 애니메이션 지원
 css로 스타일링가능
 자바스크립트로 이벤트핸들링가능
 
+<hr>
 
 * html 부모 자식요소
 Parent
@@ -54,8 +55,7 @@ ul 후손태그
 li
 
 빈태그
-: img />해서 스스로닫는다.
-> 뒤에 /붙는태그 /가없는 태그 범위가존재하지않아서 알아서 그범위내에서 해야하고 속성 값이 또 포함된다.
+: img />해서 스스로닫는다. 뒤에 /붙는태그 /가없는 태그 범위가존재하지않아서 알아서 그범위내에서 해야하고 속성 값이 또 포함된다.
 
 head 정보
 
@@ -90,15 +90,16 @@ ex)span img
  empty tag 
  chroset
 
-* header안에는 header랑 footer는 입력할수가없다.
-* footer는 header와 footer을 입력할수가 없다.
+header안에는 header랑 footer는 입력할수가없다.
+ footer는 header와 footer을 입력할수가 없다.
 
-h1 h2 태크는 block
-main block
+<hr>
 
-section block요소임
-article 독립적으로 구분되거나 직정사용가능한거를 출전
-> 주로 블로그 글쓸때 씀
+### 블락요소
+* h1 h2 태크는 block
+* main block
+* section block요소임
+* article 독립적으로 구분되거나 직정사용가능한거를 출전 ,주로 블로그 글쓸때 씀
 * div : 아무의미없음 blcok 요소임
 * nav : 다른페이지 링크를 제공하는 영역을 설정
 * address : block 으로 설정됨 보통주소를함
@@ -126,3 +127,13 @@ display: block
 * q 인용문 할때 쓰는 태그
 * u 밑줄
 * span 본질적으로 아무것도나타내지않는 것 인라인요소
+* img inline 속성임
+> x는 배수단위로 이미지크기 조절 
+* audio 소리 재생하는것 autoplay 준비되면 재생 
+* video 영상재상하는것 autoplay 준비되면 바로재생
+* canvas 그래픽이나 애니메이션을 랜더링
+
+* table : 디스플레이 테이블
+* form  양식
+
+* 가상클래스 선택자 :로 함
