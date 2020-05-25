@@ -1,4 +1,6 @@
-let good =  null;
-let consing = undefined;
-let value = true;
-let value_1 = false;
+function add(a, b){
+    a =1;
+    b= 2;
+    return a+b;
+}
+
