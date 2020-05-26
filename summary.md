@@ -172,5 +172,7 @@ display: block
  6. 전체 선택자
  7. 상속 속성은 항상우선시하지않음
 
+padding : 
  ==> 전체 태그 클래스 아이디
->>>>>>> Stashed changes
+
+* font: 기울기 / 줄높이 글꼴
