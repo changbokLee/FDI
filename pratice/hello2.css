@@ -1,3 +1,24 @@
-.fruit li:first-child {
+.fruit > li:first-child {
     color: red;
+}
+
+.fruit li:nth-child(2){
+    color: blue;
+}
+
+.test > ul  {
+    color:red;
+}
+
+.test ul li::before{
+    content: "숫자";
+    
+}
+
+.hi ul {
+    font-size: 40px;
+}
+.hi ul li::after{
+    content: url("/FDI/images/apple.png");
+    
 }

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <h1>마우스를 올려보세요</h1>
+    <img src="/FDI/images/banana.png" alt="과일"
+    onmouseover = "over(this)"
+    onmouseout = "out(this)" >
+<script >
+    function over(obj){
+        obj.src = "images/apple.png"
+    }
+
+    function out(obj){
+        obj.src = "images/banana.png"
+    }
+</script>
+</body>
+
+</html>
