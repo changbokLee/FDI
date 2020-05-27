@@ -145,7 +145,7 @@ display: block
 * table : 디스플레이 테이블
 * form  양식
 
-<<<<<<< Updated upstream
+
 
 -----------------------------
 * max-width: 최대넓이 min-width:최소넓이
@@ -153,3 +153,4 @@ display: block
 * %는 부모의 가로사이즈에 영향을 받는다
 * em 부모로부터 받은 폰트사이즈로서 설정된다
 * vmin vmax 
+* line-height: 줄의 높이를 설정할떄씀
