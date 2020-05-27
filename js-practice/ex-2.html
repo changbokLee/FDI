@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<h1>배열값 만큼의 발표 출력하기</h1>
+    <hr>
+
+    <script >
+        var arr = [10, 15 ,5 , 7, 20];
+
+        for( var i = 0; arr.length; i++){
+            var size = arr[i];
+            for(var j = 1; j<=size; j++){
+                document.write("*");
+            }
+
+            document.write(arr[i] + "<br>");
+        }   
+    </script>
+</body>
+</html>

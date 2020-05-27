@@ -152,3 +152,7 @@ display: block
 * %는 부모의 가로사이즈에 영향을 받는다
 * em 부모로부터 받은 폰트사이즈로서 설정된다
 * vmin vmax 
+* margin %를사용하면 부모요소의 가로넓이로한다
+* font- weight : bolder lighter 는 부모요소보다 얉고 두꺼운것을 의미한다
+* body tag를 기준사이즈로 지정한다
+* line-height 브라우저의 기본적인 사용 normal
