@@ -159,6 +159,7 @@ display: block
 * letter-spacing  자간을 설정
 * float: left 물흐르듯이 정렬
 * float: left;
+<<<<<<< Updated upstream
 =======
 
 
@@ -168,3 +169,6 @@ display: block
 >>>>>>> Stashed changes
 * postion :sticky 스크롤 영역기준으로 배치
 * z-index 포지션이있을 떄 우선순위를 만든다
+=======
+* postion relative
+>>>>>>> Stashed changes
