@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=".">
+</head>
+<body>
+    <h1>캔버스 그리기 연습하기</h1>
+    <canvas id = "mycanvas" style="background-color: red;" width="250px" height="250px"> <br> 
+        <button type="button" onclick="draw()" class="draw"> 네모그리기</button>
+      
+
+        <script>
+            function draw(picture){
+                var picture = document.getElementById("draw");
+                var context = car.getContext("2d");
+
+            }
+
+            var car = document.getElementById("mycanvas");
+            var context = car.getContext("2d");
+
+            context.beginPath();
+            context.strokeStyle = "blue";
+            context.rect(30, 30, 50, 50);
+            context.stroke();
+
+            context.beginPath();
+            context.fillStyle ="blue";
+            context.rect(60 ,50 ,40 ,30);
+            context.fill()
+
+
+        </script>
+    
+    </canvas>
+</body>
+</html>
