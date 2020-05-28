@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>마우스 휠을 이용한 이미지확대 축소</h1>
+    <hr>
+    <p>
+        이미지 위에 마우스 휠을 위로 굴리면 이미지가 축소되고 아래로 굴리면 이미지가 확대됩니다.
+    </p>
+    <img src="/FDI/images/fireworks.png" width="300px" height="250px" onmousewheel = "zoom(event, this)">
+</body>
+
+<script>
+
+    function zoom(e, img1){
+        if(e.wheelDelta>0)
+        {
+            img1.width -=img1.width*0.05;
+            img1.height -= img1.width*0.05;
+        }
+        else
+            img1.width += img1.width*0.05;
+            img1.height += img1.width*0.05;
+
+    }
+</script>
+
+</html>

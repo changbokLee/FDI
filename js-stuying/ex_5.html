@@ -6,10 +6,20 @@
     <title>Document</title>
     <link rel="stylesheet" href="ex4.js">
 </head>
-<body ondblclick="rancolor()">
+<body onblclick="rancolor()">
     <h1>바탕 아무곳에서나 더블클릭하세요 색상이바뀝니다</h1>
     <hr>
     <p> 바탕아무곳이나 더블클릭하면 배경색이 랜덤하게 변합니다.</p>
     
+    <script>
+ function rancolor(){
+var r = Math.floor(Math.random()*256);
+var g =  Math.floor(Math.random()*256);
+var b =   Math.floor(Math.random()*256);
+
+
+document.body.style.backgroundColor = "rgb(" + r +  "," + g + "," +b+")";
+}
+    </script>
 </body>
 </html>
