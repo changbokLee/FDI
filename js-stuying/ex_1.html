@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href=".ex.">
 </head>
 <body>
     <h1> select 객체에서 선택한 과일 사진 출력</h1>
     <hr>
-    <select >
-        <option> 딸기</option>
+    <select id="fruits" onchange="drawimage()">
+       <option value="/FDI/images/starwberry.png"> 딸기</option>
         <option> 바나나</option>
         <option selected> 사과</option>
 
     </select>
 
+    <form>
+    <img src="/FDI/images/apple.png" width="250px" height="250px" >
+    </form>
     
 </body>
 </html>

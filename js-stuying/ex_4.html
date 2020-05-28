@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ex3.js">
+</head>
+<body onload= "makecurser()">
+    <h1>이미지커서 만들기</h1>
+     <hr>
+     <p>마우스를 움직여보세요 이미졸 만든커서가움직ㅇ비니다</p>
+     <div id="cursor" style="position: absolute;">
+        <img src="/FDI/images/umbrella.jpg" width="30" height="30">
+    </div>
+    </body>
+    <script>
+        function makecurser(){
+    var cur =document.getElementById("cursor");
+
+    document.onmousemove = function(e){
+        cur.style.left = event.clientX+ "px";
+        cur.style.top = event.clientY+ "px";
+    }
+}
+
+    </script>
+</html>

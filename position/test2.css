@@ -3,12 +3,14 @@
     height: 400px;
     padding: 30px 100px 100px 38px;
     border: 4px dashed lightgray;
+    position: relative;
 }
 
 .parent {
     width: 480px;
     height: 380px;
     border: 4px dashed gray;
+    position: relative;
 }
 
 
@@ -26,4 +28,6 @@
 
 .absolute {
     position:absolute;
+    top: 50px;
+    left: 180px;
 }

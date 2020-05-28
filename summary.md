@@ -166,3 +166,4 @@ display: block
 * position relative 자기자신을 중심으로 하는것이다
 주변있는 형제요소에 영향을 받는다 .영향을 준다
 >>>>>>> Stashed changes
+* postion :sticky 스크롤 영역기준으로 배치
