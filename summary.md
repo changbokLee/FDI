@@ -172,3 +172,5 @@ display: block
 =======
 * postion relative
 >>>>>>> Stashed changes
+
+css: trasparent 투명
