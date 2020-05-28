@@ -167,3 +167,4 @@ display: block
 주변있는 형제요소에 영향을 받는다 .영향을 준다
 >>>>>>> Stashed changes
 * postion :sticky 스크롤 영역기준으로 배치
+* z-index 포지션이있을 떄 우선순위를 만든다
