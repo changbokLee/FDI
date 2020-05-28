@@ -154,7 +154,15 @@ display: block
 * em 부모로부터 받은 폰트사이즈로서 설정된다
 * vmin vmax 
 * line-height: 줄의 높이를 설정할떄씀
+<<<<<<< Updated upstream
 * text-ident 들여쓰기 
 * letter-spacing  자간을 설정
 * float: left 물흐르듯이 정렬
 * float: left;
+=======
+
+
+--------------------
+* position relative 자기자신을 중심으로 하는것이다
+주변있는 형제요소에 영향을 받는다 .영향을 준다
+>>>>>>> Stashed changes
