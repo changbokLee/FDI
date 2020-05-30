@@ -113,11 +113,6 @@ display: block
  * pre 서식이 미리 지정된테긋트를 설정 텍스트의 공백과 줄바꿈을 유지할수있음
  display: block
 
-<<<<<<< HEAD
- 
-
-
-
 ### javascript
 * 변수는 바뀔수있는 값 변수를 선언할떄 let = var는 구형
 * 상수는 const
@@ -159,18 +154,21 @@ display: block
 * letter-spacing  자간을 설정
 * float: left 물흐르듯이 정렬
 * float: left;
-<<<<<<< Updated upstream
-=======
 
 
 --------------------
 * position relative 자기자신을 중심으로 하는것이다
 주변있는 형제요소에 영향을 받는다 .영향을 준다
->>>>>>> Stashed changes
+
 * postion :sticky 스크롤 영역기준으로 배치
 * z-index 포지션이있을 떄 우선순위를 만든다
 =======
 * postion relative
->>>>>>> Stashed changes
 
-css: trasparent 투명
+
+* css: trasparent 투명
+* transition 전환효과 
+* translate : x,y값넣어서 움직이는것
+* transform :요소의 변환효과를 지정
+> scale: 크기 rotate 회전각도 skew 기울임 matrix 2차원 변환효과 transform:orgin 기준점설정 ,-style: flat 자식요소를 3d로변환하지않음
+
