@@ -1,11 +1,19 @@
-.box {
-    width: 100px;
-    height: 100px;
-    background: tomato;
+
+
+
+.box::before {
+    content: "running";
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    animation: first-animation 3s linear infinite alternate;
+    display: flex;
+    justify-content: center;
+
 }
-
-
-
+.box:hover::before{
+    content: "paused";
+}
 
 .box:hover {
     animation: first-animation 2s infinite alternate;
