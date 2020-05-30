@@ -1,6 +1,5 @@
 .perspective {
     width: 200px;
-
     padding: 70px;
     perspective: 500px;
 }
@@ -10,14 +9,22 @@
     border: 3px solid blue;
     transition: 1s;
     transform: rotateX(-45deg);
+    transform-style: preserve-3d;
 }
 
 .parent {
-
+    width: 200px;
+    border: 3px solid tomato;
+    transition: 1s;
+    transform-style: preserve-3d;
+    transform: rotateY(45deg);
 
 }
 
 .img {
 
+    width:150px;
+    border: 3px solid ligthgray;
+    transform: rotate(45deg);
 
 }

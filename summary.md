@@ -172,3 +172,6 @@ display: block
 * transform :요소의 변환효과를 지정
 > scale: 크기 rotate 회전각도 skew 기울임 matrix 2차원 변환효과 transform:orgin 기준점설정 ,-style: flat 자식요소를 3d로변환하지않음
 
+* perspective : 원근법쓸때 씀
+* animation: 애니메이션 이름 지속시간 타이밍함수 대기시간 반복횟수 반복방향 전후상태
+> animation duration :지속시간 infinte무한 alternative:다시돌아감 , timing-function 효과를 지정하는방법 animation-delay :기다리는 시간설정 
