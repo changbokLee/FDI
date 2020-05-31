@@ -175,3 +175,8 @@ display: block
 * perspective : 원근법쓸때 씀
 * animation: 애니메이션 이름 지속시간 타이밍함수 대기시간 반복횟수 반복방향 전후상태
 > animation duration :지속시간 infinte무한 alternative:다시돌아감 , timing-function 효과를 지정하는방법 animation-delay :기다리는 시간설정 
+
+
+--- flex 속성----
+* display filex inline-flex 가있음 수평정렬할때좋음 => float보다 container 할때 좋음
+> flex-flow :주축 여러줄 묶음
