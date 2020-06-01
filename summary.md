@@ -182,4 +182,5 @@ display: block
 > flex-flow :주축 여러줄 묶음 flex-wrap: 여러줄묶음 ,  justify-content:주축ㅇ즤 정렬방법을 설정한다. 
 > align-center :교차축의 정렬방법을 설정합니다. flex-glow item증가비율 flex-shirt 감소너비 flexbasis 기본너비 ,align-self 교차축에서 개별 item선별정렬
 
-* grid : 
+* grid : 정렬해주는것
+> gird-auto-flow 배치않은 아이템을 어떤방식의 자동배치알고리즘할지 정의합니다. row는 기본값 , dense는 비어잇는공간을 차례대로매꿈 ,grid-template-rows 선이름 크기
