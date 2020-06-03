@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <canvas id="my" width="400" height="400" style="background:pink ;"></canvas>
+    
+    <script>
+        var can = document.getElementById("my");
+        var con = can.getContext("2d");
+
+        con.fillStyle = "violet";
+        con.fillRect(20 ,20 ,100 ,100);
+
+        con.beginPath();
+        con.rect( 20, 150 ,100 ,100);
+        con.fillStyle = "green";
+        
+
+
+
+    </script>
+</body>
+</html>

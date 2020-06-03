@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> 캔버스 추가하기</h1>
+    <hr>
+    <canvas id="my" style="background-color: aqua;" width="250" height="250"> </canvas>
+
+    <script>
+        var can = document.getElementById("my");
+        var con = can.getContext("2d");
+
+        con.beginPath();
+        con.strokeStyle = "red";
+        con.rect(50, 50, 100, 100);
+        con.stroke();
+
+
+        con.beginPath();
+        con.strokeStyle = "blue";
+        con.rect(100, 100 ,100 ,100);
+        con.stroke();
+
+        con.font ="20px Gothic"
+        con.fillStyle = "green"
+        con.fillText("Good Morning" , 100 ,100);
+    </script>
+</body>
+
+</html>

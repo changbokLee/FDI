@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <canvas id="my" width="400" height="400" style="background:red;"></canvas>
+
+    <script>
+        var can = document.getElementById("my");
+        var con = can.getContext("2d");
+        
+        drawingimg = function() {
+        img = new Image();
+        con.drawImage(img, 0 ,0, can.width ,can.height);
+        img.src= "../images/elsa.png";
+            
+        }
+
+        img.onload(drawingimg);
+      
+        
+
+    </script>
+
+</body>
+
+</html>

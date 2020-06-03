@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="my" width="200" height="200" style="background:red;"></canvas>
+<script>
+    var can = document.getElementById("my");
+    var con = can.getContext("2d");
+
+
+    con.beginPath();
+    
+    for(var i =0; i<500; i++){
+        con.arc(100, 100, 20+10*i, 0 ,Math.PI *2);
+        con.stroke();
+        
+    }
+</script>
+</body>
+</html>
